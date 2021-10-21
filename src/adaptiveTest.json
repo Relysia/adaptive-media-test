@@ -1,0 +1,98 @@
+[
+  {
+    "id": 0,
+    "site": "Gogol.hu",
+    "palnnedImpression": 8002897,
+    "factImpressions": 7202607.3,
+    "lastUpdate": "2021-06-04 21:12:43 -02:00",
+    "tags": [
+      "fugiat",
+      "quis",
+      "deserunt"
+    ]
+  },
+  {
+    "id": 1,
+    "site": "Utara.hu",
+    "palnnedImpression": 2997365,
+    "factImpressions": 3596838,
+    "lastUpdate": "2021-06-07 16:28:03 -02:00",
+    "tags": [
+      "labore",
+      "adipisicing",
+      "qui"
+    ]
+  },
+  {
+    "id": 2,
+    "site": "Blurrybus.hu",
+    "palnnedImpression": 96678,
+    "factImpressions": 106345.8,
+    "lastUpdate": "2021-04-24 08:29:09 -02:00",
+    "tags": [
+      "proident",
+      "est",
+      "aliqua"
+    ]
+  },
+  {
+    "id": 3,
+    "site": "Corecom.hu",
+    "palnnedImpression": 340445,
+    "factImpressions": 374489.50000000006,
+    "lastUpdate": "2021-02-21 22:27:47 -01:00",
+    "tags": [
+      "aute",
+      "commodo",
+      "nostrud"
+    ]
+  },
+  {
+    "id": 4,
+    "site": "Ozean.hu",
+    "palnnedImpression": 5153441,
+    "factImpressions": 5668785.100000001,
+    "lastUpdate": "2021-09-01 02:36:15 -02:00",
+    "tags": [
+      "laboris",
+      "et",
+      "pariatur"
+    ]
+  },
+  {
+    "id": 5,
+    "site": "Accufarm.hu",
+    "palnnedImpression": 1726447,
+    "factImpressions": 1899091.7000000002,
+    "lastUpdate": "2021-07-23 16:11:12 -02:00",
+    "tags": [
+      "labore",
+      "et",
+      "ullamco"
+    ]
+  },
+  {
+    "id": 6,
+    "site": "Blikk.hu",
+    "palnnedImpression": 1726347,
+    "factImpressions": 1899491.7000000002,
+    "lastUpdate": "2021-07-23 16:11:12 -02:00",
+    "tags": [
+      "labore",
+      "et",
+      "ullamco"
+    ]
+  },
+  {
+    "id": 7,
+    "site": "Origo.hu",
+    "palnnedImpression": 1526347,
+    "factImpressions": 1299491.7000000002,
+    "lastUpdate": "2021-07-23 16:11:12 -02:00",
+    "tags": [
+      "labore",
+      "et",
+      "ullamco"
+    ]
+  }
+]
