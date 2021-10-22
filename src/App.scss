@@ -1,16 +1,81 @@
 * {
   margin: 0;
   padding: 0;
+  font-size: 10px;
 }
 
 body {
-  background: #444444;
+  background: #525252;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
 }
 
 section {
+  position: relative;
   color: #ffffff;
+  overflow: hidden;
+  width: 90vw;
+  margin: auto;
+  padding: 80px 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.carousel {
   display: flex;
-  justify-content: space-evenly;
+  gap: 40px;
+  margin-left: 40px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  min-width: calc(25% - 40px);
+  text-align: center;
+  border-radius: 10px;
+  background: #222222;
+  padding: 20px 0;
+
+  &:nth-of-type(3) {
+    border: 3px solid #ff0000;
+    min-width: calc(25% - 46px);
+  }
+
+  h2 {
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+  }
+  h3 {
+    font-size: 1.7rem;
+
+    &:nth-of-type(2) {
+      cursor: pointer;
+    }
+  }
+  h4 {
+    font-size: 2.8rem;
+  }
+  p {
+    font-size: 1.6rem;
+
+    &:nth-of-type(2) {
+      cursor: pointer;
+    }
+  }
 }
 
 .tags {
@@ -18,4 +83,86 @@ section {
   gap: 5px;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 3.1rem;
+  transition: .3s;
+  
+  &:hover {
+    color: #ca1313;
+  }
+}
+
+.left-button {
+  left: 0px;
+}
+
+.right-button {
+  right: 0px;
+}
+
+button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2.6rem;
+  color: #ffffff;
+  background: #940101;
+  border: 2px solid #ffffff;
+  text-transform: uppercase;
+  padding: 4px 15px;
+  cursor: pointer;
+  transition: .3s;
+
+  &:hover {
+    background: #da1212;
+  }
+}
+
+@media (max-width: 1000px) {
+  * {
+    font-size: 9px;
+  }
+
+  .carousel {
+    display: flex;
+    gap: 30px;
+    margin-left: 30px;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    min-width: calc(25% - 30px);
+    text-align: center;
+    border-radius: 10px;
+    background: #222222;
+    padding: 20px 0;
+    &:nth-of-type(3) {
+      border: 3px solid #ff0000;
+      min-width: calc(25% - 36px);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 4rem;
+    width: 100%;
+  }
+
+  .card-container {
+    min-width: calc(100% - 30px);
+    &:nth-of-type(3) {
+      min-width: calc(100% - 36px);
+    }
+  }
 }
