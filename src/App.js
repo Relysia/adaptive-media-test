@@ -17,11 +17,13 @@ function App() {
     }
   }, [isMobile]);
 
+  // Calculate the difference between planned and fact impressions
   const percentageChange = (oldNumber, newNumber) => {
     var decrease = newNumber - oldNumber;
     return (decrease / oldNumber) * 100;
   };
 
+  // Move the carausel right
   const switchCardRight = () => {
     if (isMobile) {
       if (position <= -700) {
@@ -37,6 +39,7 @@ function App() {
     }
   };
 
+  // Move the carausel left
   const switchCardLeft = () => {
     if (position >= 0) {
       return;
@@ -49,10 +52,12 @@ function App() {
     }
   };
 
+  // Shows the last update in an alert
   const alertLastUpdate = (lastUpdate) => {
     alert(lastUpdate.slice(0, -7));
   };
 
+  // Reverse the order of the data
   const reverseOrder = () => {
     if (order === 'normal') {
       setOrder('reverse');
